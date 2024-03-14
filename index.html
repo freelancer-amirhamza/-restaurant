@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" />
+  <title>Restaurant Site</title>
+  <!-- bootstrap links -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+  <!-- css link -->
+  <link rel="stylesheet" href="./css/icofont.min.css" />
+  <link rel="stylesheet" href="./css/style.css" />
+  <link rel="stylesheet" href="./css/responsive.css">
+</head>
+
+<body>
+  <!-- header -->
+  <header id="header" class="header">
+    <div class="container">
+      <nav>
+        <a href="#">
+          <img class="nav_logo" src="./images/logo 1.png" alt="" />
+        </a>
+        <i class="icofont-navigation-menu"></i>
+        <ul class="menu_list">
+          <li><i class="icofont-close-line"></i></li>
+          <li><a href="#hero">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#gallery_section">Gallery</a></li>
+          <li>
+            <a class="app_btn_transparent app_btn" href="./extra.html">Book a Table</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <!-- header end -->
+
+  <!-- hero section -->
+  <section id="hero" class="hero">
+    <div class="container">
+      <center>
+        <div class="hero_content">
+          <h1>Enjoy the best meal ever with us</h1>
+          <p>
+            Lorem ipsum dolor sit amet, consect etur adip iscing elit. Proin
+            rhoncus urn a dictum neque molestie ultricies.
+          </p>
+        </div>
+      </center>
+      <a class="app_btn" href="./extra.html">Book a Table</a>
+    </div>
+  </section>
+
+  <!-- about section -->
+  <section id="about" class="about">
+    <div class="container">
+      <div class="row about_container">
+        <div class="col-md-8">
+          <div class="about_content">
+            <div class="about_title">
+              <h3 class="section_s_title">About us</h3>
+              <h3 class="section_main_title">RESTAURANT</h3>
+            </div>
+            <div class="row">
+              <div class="col-md-6">
+                <p>
+                  Lorem ipsum dolor sit amat, consect etur adip iscing elit.
+                  Prion rhoncus urn a dictum neque molestie ultricies.
+                </p>
+              </div>
+              <div class="col-md-6">
+                <p>
+                  Lorem ipsum dolor sit amet, consect etur adip iscing elit.
+                  Proin rhoncus urn a dictum neque molestie ultricies.
+                </p>
+              </div>
+            </div>
+            <br />
+            <a class="app_btn" href="./extra.html">Book a Table </a>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="about_video">
+            <img src="./images/Rectangle-9.png" alt="" />
+            <div class="play_video" data-src="./videos/Kache.mp4">
+              <img class="icon1" src="./images/Polygon 1.svg" alt="" />
+              <img class="icon2" src="./images/Ellipse 1.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="menus">
+        <div class="menu image">
+          <img src="./images/Rectangle-5.png" alt="" />
+          <p>vegetable</p>
+        </div>
+        <div class="menu image">
+          <img src="./images/Rectangle-6.png" alt="" />
+          <p>meat meal</p>
+        </div>
+        <div class="menu image">
+          <img src="./images/Rectangle-7.png" alt="" />
+          <p>cheese</p>
+        </div>
+        <div class="menu image">
+          <img src="./images/Rectangle-8.png" alt="" />
+          <p>Prawn curry</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- 
+    video lightbox
+     -->
+  <div class="lightbox">
+    <i class="icofont-close-circled close_circled"></i>
+    <div class="lightbox_content ">
+      <div class="lightbox_video">
+        <video controls>
+          <source src="./videos/Kache.mp4" type="video/mp4" />
+        </video>
+      </div>
+    </div>
+  </div>
+
+  <!-- menu image lightbox -->
+  <div class="img_lightbox img_box1">
+    <i class="icofont-close-circled img_close_circled1"></i>
+    <div class="img_lightbox_content  img_content1">
+      <div class="lightbox_image box_image-1">
+        <img src="./images/Rectangle-5.png" alt="" />
+      </div>
+    </div>
+  </div>
+  <div class="img_lightbox img_box2">
+    <i class="icofont-close-circled img_close_circled2"></i>
+    <div class="img_lightbox_content  img_content2">
+      <div class="lightbox_image box_image-2">
+        <img src="./images/Rectangle-6.png" alt="" />
+      </div>
+    </div>
+  </div>
+  <div class="img_lightbox img_box3">
+    <i class="icofont-close-circled img_close_circled3"></i>
+    <div class="img_lightbox_content  img_content3">
+      <div class="lightbox_image box_image-3">
+        <img src="./images/Rectangle-7.png" alt="" />
+      </div>
+    </div>
+  </div>
+  <div class="img_lightbox img_box4">
+    <i class="icofont-close-circled img_close_circled4"></i>
+    <div class="img_lightbox_content  img_content4">
+      <div class="lightbox_image box_image-4">
+        <img src="./images/Rectangle-8.png" alt="" />
+      </div>
+    </div>
+  </div>
+  <br />
+  <!-- Table section  starts-->
+  <section class="table_section">
+    <div class="container">
+      <div class="table_contents">
+        <div class="fast_content">
+          <h3 class="section_s_title reserve_title">Reserve</h3>
+          <h3 class="section_main_title book_title">Book a table</h3>
+        </div>
+        <div class="scend-content">
+          <h4 class="date_title">SET DATE :</h4>
+          <div class="date">
+            <h1 class="number1">13</h1>
+            <div class="month1">
+              <h5 class="month2">AUG</h5>
+              <div class="array">
+                <!-- <h4>△</h4> -->
+                <h4>▽</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="last_content">
+          <h4 class="title">GUESTS :</h4>
+          <div class="count">
+            <h1 class="number">1</h1>
+            <div class="array">
+              <h5>△</h5>
+              <h5>▽</h5>
+            </div>
+          </div>
+        </div>
+        <div class="table_button">
+          <a href="#" class="app_btn">Book</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Table section  ends-->
+  <!-- Gallery section starts -->
+  <section id="gallery_section" class="gallery_section">
+    <div class="container">
+      <div class="gallery_title">
+        <h3 class="section_s_title menus_title">Best Menus</h3>
+        <h3 class="section_main_title main_title">gallery</h3>
+      </div>
+      <div class="gallery_images">
+        <div class="fast_para">
+          <img class="image i1" src="./images/Rectangle 17.png" alt="" />
+          <img class="image i2" src="./images/Rectangle 21.png" alt="" />
+        </div>
+        <div class="scend_para">
+          <img class="image i3" src="./images/Rectangle 18.png" alt="" />
+          <img class="image i4" src="./images/Rectangle 22.png" alt="" />
+        </div>
+        <div class="last_para">
+          <img class="image i5" src="./images/Rectangle 19.png" alt="" />
+          <div class="middle_para">
+            <img class="image i6" src="./images/Rectangle 20.png" alt="" />
+            <img class="image i7" src="./images/Rectangle 23.png" alt="" />
+          </div>
+          <img class="image i8" src="./images/Rectangle 24.png" alt="" />
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- gallery box starts -->
+  <div class="imageLightBox ">
+    <i class="icofont-close-circled"></i>
+    <img alt="image">
+  </div>
+  <div class="backdrop"></div>
+
+  <!-- gallery box ends -->
+  <!-- Gallery section ends -->
+  <!-- footer section starts -->
+  <footer class="footer_section">
+
+    <div class="container">
+      <div class="row ">
+        <div class=" col-md-4 fast_contents">
+          <h5 class="footer_title section_main_title">STAY TUNED</h5>
+          <p class="paragap">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Praesent eu libero elit.
+          </p>
+          <div class="social_icons">
+            <i class="icofont-facebook"></i>
+            <i class="icofont-linkedin"></i>
+            <i class="icofont-twitter"></i>
+            <i class="icofont-instagram"></i>
+          </div>
+        </div>
+        <div class="col-md-4 scend_contents">
+          <div class="footer_logo">
+            <img src="./images/logo 2.png" alt="" />
+
+
+            <a href="#">info@ruedesiam.com </a>
+            <a href="#">+12 546 987 233</a>
+          </div>
+        </div>
+        <div class="col-md-4  last_contents">
+          <h5 class="footer_title section_main_title">newsletter </h5>
+          <div class="footer_input">
+            <input type="email" name="Your Email" placeholder="Your Email" id="">
+            <button type="submit"><img src="./images/Vector.png" alt=""></button>
+          </div>
+
+        </div>
+      </div>
+
+  </footer>
+  <!-- footer section ends -->
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <script src="./javaScript/app.js"></script>
+</body>
+
+</html>

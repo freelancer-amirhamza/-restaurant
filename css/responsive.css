@@ -1,0 +1,141 @@
+/* responsive media query 767px >= tablet display */
+@media (max-width: 767px) {
+  #header {
+    padding: 20px 0;
+  }
+  nav {
+    display: flex;
+    margin-bottom: 30px;
+    align-items: center;
+    width: 100%;
+  }
+  .nav_logo {
+    margin-top: 0px;
+  }
+  .nav_logo_hidden {
+    margin-top: -126px;
+  }
+  nav ul li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 0px;
+  }
+  .menu_list {
+    display: none;
+  }
+  .menu_list_show {
+    display: block;
+  }
+  .icofont-close-line {
+    font-size: 35px;
+    color: #fdf3a6;
+    padding: 10px;
+    display: block;
+  }
+  .icofont-navigation-menu {
+    display: block;
+    font-size: 40px;
+    color: #787231;
+  }
+  .icofont_navigation_menu_hidden {
+    display: none;
+  }
+
+  .hero {
+    height: 140vh;
+  }
+  .menus {
+    margin-left: 60px;
+    justify-content: center;
+  }
+
+  .menus {
+    margin-top: 25px;
+  }
+  .gallery_images {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    margin-left: -20px;
+  }
+  .fast_para {
+    display: flex;
+    flex-direction: column;
+    margin: 5px 0px 5px 0px;
+
+    justify-content: center;
+  }
+  .scend_para {
+    display: flex;
+    flex-direction: column;
+    margin: 0px 0px 0px 63px;
+
+    justify-content: center;
+  }
+  .last_para {
+    display: flex;
+    flex-direction: column;
+    margin: 0px 0px 0px 138px;
+    justify-content: center;
+  }
+  .scend_para .i4 {
+    margin: 5px 0px 5px 0px;
+    width: 350px;
+  }
+  .scend_para .i3 {
+    margin: 6px 0px 6px 0px;
+    width: 350px;
+  }
+  .fast_para .i2 {
+    margin: 5px 0px 0px 58px;
+    width: 350px;
+  }
+  .fast_para .i1 {
+    margin: -66px 0px 5px 58px;
+    width: 350px;
+  }
+  .footer_input {
+    margin-top: 0%;
+  }
+  .fast_contents {
+    display: none;
+  }
+  .hero_content h1 {
+    font-size: 50px;
+    letter-spacing: 0em;
+  }
+}
+/* responsive media query 575px >= mobile display */
+
+@media (max-width: 575px) {
+  .table_section {
+    height: 44vh;
+  }
+  .fast_content {
+    text-align: start;
+    height: 95px;
+  }
+  .table_contents {
+    display: flex;
+    flex-direction: column;
+  }
+  .social_icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .social_icons img {
+    margin: 10px;
+  }
+  .fast_contents {
+    display: none;
+  }
+
+  .footer_section {
+    margin-top: 40px;
+  }
+}
